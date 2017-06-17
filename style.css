@@ -1,0 +1,20 @@
+body 
+{
+  background-image: url("pictures/space.jpg");
+  background-size:cover;
+  font-family: 'Oswald', sans-serif;
+  font-size: 150%;
+  font-weight:bold;
+  min-height:100%;
+}
+
+html 
+{
+  color: orange;
+}
+
+h1
+{
+  text-align:center;
+  background-color: blue;
+}
