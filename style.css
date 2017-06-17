@@ -17,4 +17,81 @@ h1
 {
   text-align:center;
   background-color: blue;
+
+}
+
+table 
+{
+  table-layout: fixed;
+  width: 75%;
+  border-collapse: collapse;
+  border: .15em solid orange;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+th, td 
+{	
+  padding: .5em;
+  letter-spacing: 0em;
+  text-align: center;
+  border-bottom: .1em solid orange;
+}
+
+th
+{
+  background-color: blue;
+  color: orange;
+}
+
+tr:hover 
+{
+  background-color: black
+}
+
+tr.c1:hover 
+{
+  background-color: red;
+}
+
+tr.c2:hover 
+{
+  background-color: purple;
+}
+
+tr.c3:hover 
+{
+  background-color: lightgreen;
+}
+
+tr.c4:hover
+{
+  background-color: black;
+}
+
+tr.c5:hover 
+{
+  background-color: gold;
+}
+
+tr.c6:hover 
+{
+  background-color: lightblue;
+}
+
+tr.c7:hover 
+{
+  background-color: darkred;
+}
+
+.image
+{
+  position: relative;
+  float: none;
+  width:  6.25em;
+  height: 6.25em;
+}	
+
+.big {
+	background-color: black;
 }
